@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+    <Compile Remove="CMakeFiles\**" />
+    <Compile Remove="meshoptimizer.dir\**" />
+    <Compile Remove="packages\**" />
+    <Compile Remove="Release\**" />
+    <Compile Remove="x64\**" />
+    <EmbeddedResource Remove="CMakeFiles\**" />
+    <EmbeddedResource Remove="meshoptimizer.dir\**" />
+    <EmbeddedResource Remove="packages\**" />
+    <EmbeddedResource Remove="Release\**" />
+    <EmbeddedResource Remove="x64\**" />
+    <None Remove="CMakeFiles\**" />
+    <None Remove="meshoptimizer.dir\**" />
+    <None Remove="packages\**" />
+    <None Remove="Release\**" />
+    <None Remove="x64\**" />
+  </ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Program.cs" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".TestCSharp.csproj.swp" />
+    <None Remove="ALL_BUILD.vcxproj.filters" />
+    <None Remove="CMakeCache.txt" />
+    <None Remove="cmake_install.cmake" />
+    <None Remove="INSTALL.vcxproj.filters" />
+    <None Remove="meshoptimizer.vcxproj.filters" />
+    <None Remove="meshoptimizerConfig.cmake" />
+    <None Remove="meshoptimizerConfigVersion.cmake" />
+    <None Remove="ZERO_CHECK.vcxproj.filters" />
+  </ItemGroup>
+
+</Project>

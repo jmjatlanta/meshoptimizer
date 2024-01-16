@@ -1,6 +1,6 @@
 # IDE integrations
 /.idea/
-/.vs/
+**/.vs/
 /.vscode/
 
 # Build files
